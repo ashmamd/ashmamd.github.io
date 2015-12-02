@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: linen;
+}
+h1 {
+    color: maroon;
+    margin-left: 10px;
+} 
+p
+{
+    font-family: Arial;
+    color: red;
+}
+h3
+{
+    color: #0FA344;
+}
+h4
+{
+    font-family: Verdana;
+}
+img
+{
+    border:10px dotted #09AA90;
+}
+</style>
+</head>
+<body>
+
+<h1>"I've been thinking too much"</h1>
+<p><strong>Twenty One Pilots</strong><br>
+    Tyler Joseph: December 1st, 1988
+</p>
+    <br>
+    <center><img src ="https://mryseas.files.wordpress.com/2015/05/tumblr_static_tumblr_static__640.jpg" alt= "both" height ="250"/></center>
+
+<h2>
+        <a href="http://www.allmusic.com/artist/twenty-one-pilots-mn0002398414/biography">Biographical information:</a><br>
+</h2>
+<h3>
+    The band "Twenty One Pilots" was formed in 2009 by high school friends.
+                <br>Two members left the band due to busy schedules. However, Tyler carried on the band with new member- Josh Dun.
+</h3>
+
+<img src="http://www.fm104.ie/getmedia/3fd3229a-4034-4e54-9264-6b4180b56326/twenty-one-pilots_1.jpg" alt= "21pilots" height="200"/><br>
+<h4>
+    Created By: Ashma Manandhar
+</h4>
+</body>
+</html>

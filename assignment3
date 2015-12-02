@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: linen;
+}
+
+p
+{
+    color: blue;
+    font-family: Verdana;
+}
+
+h1 
+{
+    color: #F04F3F;
+    -webkit-transform: translate(380px,10px);
+} 
+#one
+{
+    border: 5px dashed;
+    border-color: #AA00AA;
+     -webkit-transform: translate(300px,20px);
+     z-index: -1;
+}
+#two
+{
+    -webkit-transform: rotate(10deg);
+     opacity: 0.9;
+
+}
+#three
+{
+    -webkit-transform: rotate(-10deg);
+     opacity: 0.9;
+}
+#four
+{
+    -webkit-transform: rotate(15deg);
+     opacity: 0.9;
+}
+#five
+{
+    -webkit-transform: rotate(-15deg);
+     opacity: 0.9;
+}
+#six
+{
+    -webkit-transform: rotate(-10deg);
+     opacity: 0.9;
+}
+#seven
+{
+    -webkit-transform: rotate(15deg);
+     opacity: 0.9;
+}
+h2
+{
+    font-size: 20px;
+    -webkit-transform: translate(280px,10px);
+    color: #F03F3F;
+}
+</style>
+</head>
+<body>
+   
+<p> Collage - Manandhar, A </p>
+<h1><strong>Japanese Food</strong></h1>
+    <br>
+    <img id = "one" src ="https://d1h69ey09xg1xv.cloudfront.net/wp-content/uploads/2015/05/15-Most-Well-Funded-Startups-Japan-Feature-Image.png" 
+    alt= "one" height ="150"/><br>
+    <img id = "two" src ="http://www.onsecrethunt.com/wallpaper/wp-content/uploads/2013/11/Sushi-Japanese-Food.jpg"
+    alt= "two" height ="100"/>
+    <img id = "three" src ="http://www.ippinka.com/wp-content/uploads/2012/09/onigiri-2.jpg"
+    alt= "three" height ="108"/>
+    <img id = "four" src ="http://muza-chan.net/aj/poze-weblog4/japanese-food-zaru-soba-big.jpg"
+    alt= "four" height ="102"/>
+    <img id = "five" src ="http://www.munatycooking.com/wp-content/uploads/2014/02/chicken-teryaki.jpg"
+    alt= "five" height ="110"/>
+    <img id = "six" src ="http://www.japanesecooking101.com/wp-content/uploads/2012/02/IMG_6208-e1333349175561.jpg"
+    alt= "six" height ="110"/>
+    <img id = "seven" src ="http://tastychomps.com/wp-content/uploads/2015/01/DSC07094.jpg"
+    alt= "seven" height ="100"/>
+    <br>
+    <br>
+    <br>
+    <h2> Visit Japan and try these amazing foods! ^__^ </h2>
+</body>
+</html>
