@@ -2,6 +2,11 @@
 <html>
 <head>
 <title>Bookstrap- Manandhar, A.</title>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <style>
 h1
 {
@@ -15,11 +20,32 @@ h3
 {
   color: black;
 }
+.container:nth-child(even) 
+{
+  background: #CCC
+  
+}
+p
+{
+  color: #FF00F0;
+}
+.well
+{
+  color:#A2F;
+}
 </style>
 </head>
 
 <body>
   <h1>Lane Tech buttons</h1>
+  
+<div class ="container">
+  <img src="https://pbs.twimg.com/profile_images/2957224906/f3a7509165585b723c3634b268ea9750_400x400.png" alt="lt" width="100" height="100"> 
+<p> (This is an image container) </p>
+</div>
+
+<div class="well">Go down</div>
+<p>(This is a well container) </p>
 
 <div class="container">
   <h3>Button Sizes</h3>
@@ -27,27 +53,28 @@ h3
   <button type="button" class="container">Medium</button>    
   <button type="button" class="container">Small</button>
 </div>
-
-<div class="container">
-  <p>Images of buttons</p>
+<p>(This is a button container) </p>
+  <h2>Images of buttons</h2>
   <tr>
     <div class="container">           
-          <img src="https://s-media-cache-ak0.pinimg.com/236x/23/3d/fc/233dfc6522fb4306a56d5b3690566556.jpg" class="img-rounded" alt="button" width="205" height="236"> 
-          <img src="https://kvancaeyzeele.files.wordpress.com/2011/09/botons-buttons-broches-moda-acessorios-gabbyestevao-2.jpg" class="img-rounded" alt="cutebuttons" width="250" height="236"> 
+          <img src="https://s-media-cache-ak0.pinimg.com/236x/23/3d/fc/233dfc6522fb4306a56d5b3690566556.jpg" alt="button" width="205" height="236"> 
+          <img src="https://kvancaeyzeele.files.wordpress.com/2011/09/botons-buttons-broches-moda-acessorios-gabbyestevao-2.jpg" alt="cutebuttons" width="250" height="236"> 
     </div>
   </tr>
-</div>
+<p>(This is an image container) </p>
 
 <div class="container">
-  <p>Can't find something?</p>
+  <h3>Can't find something?</h3>
    <button type="button" class="btn btn-default">
       <span class="glyphicon glyphicon-search">Search</span> 
     </button>
 </div>
-<div class="container">
+<p>(This is a search container) </p>
+
 <div class="alert alert-success">
   <strong>Success!</strong> You've reached the end of the page.
 </div>
-</div>
+<p>(This is an alert container) </p>
+
 </body>
 </html>
